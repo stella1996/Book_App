@@ -31,8 +31,6 @@ public class UserController {
 	private UserRepository userRepo;
 
 	@Autowired
-	private BookRepository bookRepo;
-	@Autowired
 	private UserService userService;
 
 	@PostMapping("/update")
