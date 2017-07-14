@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.bookapp.form.RegistrationForm;
 import com.bookapp.model.User;
+import com.bookapp.repository.BookRepository;
 import com.bookapp.repository.UserRepository;
 import com.bookapp.service.UserService;
 
@@ -28,6 +29,9 @@ public class UserController {
 
 	@Autowired
 	private UserRepository userRepo;
+
+	@Autowired
+	private BookRepository bookRepo;
 	@Autowired
 	private UserService userService;
 
