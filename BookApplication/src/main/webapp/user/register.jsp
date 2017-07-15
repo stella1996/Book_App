@@ -396,8 +396,8 @@ textarea {
 }
 
 .button-block {
-	display: block;
-	width: 100%;
+	display: inline-block;
+	width: 49.5%;
 }
 
 .forgot {
@@ -428,8 +428,7 @@ textarea {
 		</ul>
 
 
-		<div id="signup">
-			<h1>Sign Up</h1>
+		
 			<c:forEach items="${errors}" var="error">
 				<font color="red"><c:out value="${error.defaultMessage}" /></font>
 				<br />
@@ -464,10 +463,13 @@ textarea {
 				</div>
 
 
+
 				<button class="button button-block" />
 				Sign Up
-				</button>
+				</button> <input class="button button-block" type="reset" value="Reset">
 
+				<br></br>
+				
 			</form>
 
 		</div>

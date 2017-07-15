@@ -398,8 +398,8 @@ textarea {
 }
 
 .button-block {
-	display: block;
-	width: 100%;
+	display: inline-block;
+	width: 50%;
 }
 
 .forgot {
@@ -446,11 +446,11 @@ textarea {
 					<input type="password" required autocomplete="off" name="password"
 						placeholder="Password" required="required" />
 				</div>
-				<a style="align: right" href="/users/forgot">Forgot Password ?</a>
+				<a style="align: right" href="/users/forgot">Forgot Password ?</a><br></br>
 
 				<button class="button button-block" />
 				Log In
-				</button>
+				</button><input class="button button-block" type="reset" value="Reset">
 
 			</form>
 
